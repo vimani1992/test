@@ -62,7 +62,7 @@ module.exports = {
       .addAssertion(
         '<SummarizedResult|RawResult> [not] to have (passed|succeeded)',
         (expect, result) => {
-          expect(result, '[not] to have property', 'code', 0);
+          expect(result, '[not] to have property by vinod ', 'code', 0);
         }
       )
       .addAssertion(
